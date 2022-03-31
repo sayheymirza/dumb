@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Tahoma";
+}
+
+body select {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+div#root {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+div#root button {
+  position: absolute;
+
+  cursor: pointer;
+
+  padding: 10px 20px;
+
+  border-radius: 8px;
+  border: 2px solid #2d3436;
+}
+
+div#audio {
+  opacity: 0;
+  pointer-events: none;
+}
